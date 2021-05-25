@@ -16,10 +16,9 @@ Alle foto's (hm... bijna alle) zijn gedownload van de
 ## Waar te zien?
 
 Je kunt online door de Eefdese eeuw reizen op 
-[Flickr](https://www.flickr.com/photos/leegerstee/albums)
+[Flickr](https://www.flickr.com/photos/leegerstee/albums).
 
-Je kunt opmerkingen doorgeven door bij de foto's commentaar te plaatsen.
-
+Je kunt bij de foto's opmerkingenschrijven.
 Met name correcties met betrekking tot de plaats, tijd, en omschrijving van de foto's worden zeer op prijs gesteld.
 
 *Tip voor tablet of telefoon*: Neem een gratis Flickr account en gebruik de Flickr app.
@@ -27,12 +26,13 @@ Met name correcties met betrekking tot de plaats, tijd, en omschrijving van de f
 ## Downloaden
 
 Alle foto's staan op
-[Dropbox](https://www.dropbox.com/sh/u4tvuib9d5sco2q/AAAkkSq0_iveegH-kEKO1vcaa?dl=0)
+[Dropbox](https://www.dropbox.com/sh/u4tvuib9d5sco2q/AAAkkSq0_iveegH-kEKO1vcaa?dl=0).
 Via deze link kun je de hele verzameling in één keer downloaden.
 Je krijgt ze dan netjes geordend in mappen op je computer.
 
 *Tip voor tablet of telefoon*:
-Je kunt de foto's ook via direct bekijken via deze link. Je krijgt dan ook de locaties te zien.
+Je kunt de foto's ook via direct bekijken via deze link.
+Je krijgt dan ook de locaties te zien.
 Helaas laat Dropbox niet de beschrijvingen zien.
 
 ## Volgende stap
@@ -56,4 +56,4 @@ Ook zijn er de keywords
 * **laatstestuiver**
 * **kazerne**
 * **kerk**
-* **kaart
+* **kaart**.
