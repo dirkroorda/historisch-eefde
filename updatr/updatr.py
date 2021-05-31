@@ -14,7 +14,8 @@ pp = pprint.PrettyPrinter(indent=2)
 
 COMMANDS = dict(
     flat="export compilation from Photos to flat directory in _local",
-    dropbox="export compilation from Photos to hierarchical directory on Dropbox",
+    organized="export compilation from Photos to organized directory in _local",
+    dropbox="export compilation from Photos to organized directory on Dropbox",
     toflickr="sync additions/deletions, metadata, albums with Flickr",
 )
 COMMAND_STR = "\n".join(f"{k:<10} : {v}" for (k, v) in sorted(COMMANDS.items()))
@@ -39,7 +40,7 @@ YAML_DIR = f"{REPO_DIR}/yaml"
 TOML_DIR = f"{REPO_DIR}/toml"
 LOCAL_DIR = f"{REPO_DIR}/_local"
 FLICKR_CONFIG = f"{LOCAL_DIR}/flickr.yaml"
-TOML_FILES = ("flat", "dropbox")
+TOML_FILES = ("flat", "organized", "dropbox")
 CONFIG_FILE = f"{YAML_DIR}/update.yaml"
 WORK_DIR = f"{YAML_DIR}/works"
 
@@ -141,12 +142,15 @@ class Make:
         c["dropboxDir"] = f"{LOCAL_DIR}/{work}/Dropbox"
         c["localDir"] = f"{LOCAL_DIR}/{work}"
         c["flatDir"] = f"{LOCAL_DIR}/{work}/Flat"
+        c["organizedDir"] = f"{LOCAL_DIR}/{work}/Organized"
         c["albumDir"] = f"{LOCAL_DIR}/{work}/albums"
         c["tomlOutDir"] = f"{LOCAL_DIR}/{work}/toml"
         c["reportDir"] = f"{LOCAL_DIR}/{work}/csv"
         c["reportFlat"] = f"{LOCAL_DIR}/{work}/csv/flat.csv"
+        c["reportOrganized"] = f"{LOCAL_DIR}/{work}/csv/organized.csv"
         c["reportDropbox"] = f"{LOCAL_DIR}/{work}/csv/dropbox.csv"
         c["tomlFlat"] = f"{LOCAL_DIR}/{work}/toml/flat.toml"
+        c["tomlOrganized"] = f"{LOCAL_DIR}/{work}/toml/organized.toml"
         c["tomlDropbox"] = f"{LOCAL_DIR}/{work}/toml/dropbox.toml"
 
         if not os.path.exists(FLICKR_CONFIG):
@@ -159,7 +163,7 @@ class Make:
         for (k, v) in c.items():
             setattr(C, k, v)
 
-        for wd in (C.flatDir, C.tomlOutDir, C.reportDir, C.dropboxDir):
+        for wd in (C.flatDir, C.organizedDir, C.tomlOutDir, C.reportDir, C.dropboxDir):
             if not os.path.exists(wd):
                 os.makedirs(wd, exist_ok=True)
 
@@ -174,7 +178,13 @@ class Make:
             with open(tomlInPath) as fh:
                 toml = fh.read()
 
-            for k in ("albumName", "reportFlat", "skipTags"):
+            for k in (
+                "albumName",
+                "reportFlat",
+                "reportOrganized",
+                "reportDropbox",
+                "skipTags",
+            ):
                 toml = toml.replace(f"«{k}»", getattr(C, k, None))
 
             with open(tomlOutPath, "w") as fh:
@@ -192,6 +202,17 @@ class Make:
                 f"osxphotos export"
                 f" {C.photoLib} {C.flatDir}"
                 f" --load-config {C.tomlFlat}"
+            ),
+            shell=True,
+        )
+
+    def organized(self):
+        C = self.C
+        run(
+            (
+                f"osxphotos export"
+                f" {C.photoLib} {C.organizedDir}"
+                f" --load-config {C.tomlOrganized}"
             ),
             shell=True,
         )
