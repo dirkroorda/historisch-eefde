@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+updatr/__init__.py
+updatr/build.py
+updatr/help.py
+updatr/updatr.py
+updatr.egg-info/PKG-INFO
+updatr.egg-info/SOURCES.txt
+updatr.egg-info/dependency_links.txt
+updatr.egg-info/entry_points.txt
+updatr.egg-info/not-zip-safe
+updatr.egg-info/requires.txt
+updatr.egg-info/top_level.txt

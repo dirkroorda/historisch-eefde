@@ -1,0 +1,20 @@
+[export]
+album = [ "Een Eeuw Eefde",]
+convert_to_jpeg = true
+description_template = "{descr}"
+directory = "{/+keyword|lower[/eefde,|eefde/,|/historisch,|historisch/,]}"
+download_missing = true
+edited_suffix = ""
+exiftool = true
+filename_template = "{original_name}"
+ignore_date_modified = true
+jpeg_ext = "jpg"
+jpeg_quality = 1
+original_suffix = ""
+report = 'dropbox.csv'
+skip_original_if_edited = true
+finder_tag_keywords = true
+xattr_template = [ [ "authors", "Dirk Roorda",], [ "copyright", "https://erfgoedcentrumzutphen.nl/onderzoeken/beeldbank: zoek op Eefde",], [ "findercomment", "{descr}",],]
+update = true
+cleanup = true
+overwrite = true
