@@ -1,3 +1,0 @@
-wheel
-osxphotos
-pyyaml>=5.3
