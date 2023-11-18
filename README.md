@@ -4,15 +4,14 @@
 
 Compilatie van oude foto's van Eefde door Dirk Roorda. 
 
-[[https://github.com/dirkroorda/historisch-eefde/blob/master/logo.jpg|alt=logo]]
-
 Elke foto bevat een beschrijving, GPS coordinaten van wat erop staat, en de
 datum waarop hij genomen is.
 
 ## Doel
 
-Al deze foto's zijn al ergens anders te zien. Met name de beeldbank van het
-Erfgoedcentrum Zutphen geeft een heel mooie toegang tot al deze foto's en meer.
+Al deze foto's zijn al ergens anders te zien. Met name de
+[beeldbank van het Erfgoedcentrum Zutphen](https://erfgoedcentrumzutphen.nl/onderzoeken/beeldbank/?mode=gallery&view=horizontal&q=eefde&page=1&reverse=0)
+geeft een heel mooie toegang tot al deze foto's en meer.
 
 Mijn doel was om een hieruit een selectie te maken die gevoel kan geven hoe
 Eefde er de laatste eeuw heeft uitgezien, en hoe het was om hier je leven te
@@ -20,7 +19,7 @@ leiden. Hoe zou het zijn om per straat door de tijd te kunnen wandelen?
 
 ## Methode
 
-Ik heb uit de 1300+ fotos van Eefde die beeldbank heeft er 400+ geselecteerd.
+Ik heb uit de 1300+ foto's van Eefde die beeldbank heeft er 400+ geselecteerd.
 Alle gegevens over de foto (de *metadata*) heb ik in de foto's zelf opgeslagen.
 Op die manier kan het fotoprogramma dat je gebruikt ze op allerlei manieren
 rangschikken.
@@ -57,8 +56,8 @@ online bekijken. Maar dat is niet de beste ervaring.
 
 ## Downloaden
 
-Je kunt alle photos in één keer downloaden vanuit deze
-[bewaarplaats](https://github.com/dirkroorda/historisch-eefde/releases/download/untagged-6a8b897b976dc077664e/photosFullRes.zip)
+Je kunt alle foto's in één keer downloaden vanuit deze
+[bewaarplaats](https://github.com/dirkroorda/historisch-eefde/releases/download/untagged-6a8b897b976dc077664e/photosFullRes.zip).
 
 Je krijgt ze dan snel en efficiënt op je computer.
 
@@ -69,7 +68,7 @@ Je kunt dan bijvoorbeeld je eigen recente foto's eraan toevoegen, en zelf albums
 Bovendien heb je de foto's dan zelf.
 
 Na importeren is het mogelijk even zoeken waar ze gebleven zijn temidden van je
-andere fotos, omdat deze foto's in een ver verleden genomen zijn. Je
+andere foto's, omdat deze foto's in een ver verleden genomen zijn. Je
 fotoprogramma begraaft ze dan temidden van foto's van jaren geleden.
 
 Maar meestal geven die programma's je ook een inzicht per datum van invoeren
@@ -101,8 +100,8 @@ Dat kan heel simpel:
 **Hele compilatie of meerdere foto's**:
 
 Bron: *Een Eeuw Eefde*.
-Compilatie samengesteld door Dirk Roorda uit de Beeldbank van het
-Erfgoedcentrum Zutphen. 
+Compilatie samengesteld door Dirk Roorda uit de
+[Beeldbank van het Erfgoedcentrum Zutphen](https://erfgoedcentrumzutphen.nl/onderzoeken/beeldbank). 
 Link: https://github.com/dirkroorda/historisch-eefde
 
 ## Techniek
