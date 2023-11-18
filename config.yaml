@@ -1,0 +1,12 @@
+albumName: Een Eeuw Eefde
+metaDefaults:
+  source: "Eefde"
+  credit: "https://erfgoedcentrumzutphen.nl/onderzoeken/beeldbank"
+  author: "onbekend"
+  writer: "Dirk Roorda"
+  copyright: "© zie {credit}/?q={sourceAsUrl}"
+  caption: "Eefde historisch"
+  keywords:
+    - Eefde
+    - historisch
+colofon: "Foto: {author}; bewerker: {writer}\n{copyright}"
