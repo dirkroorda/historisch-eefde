@@ -58,7 +58,7 @@ online bekijken. Maar dat is niet de beste ervaring.
 ## Downloaden
 
 Je kunt alle photos in één keer downloaden vanuit deze
-[bewaarplaats]().
+[bewaarplaats](https://github.com/dirkroorda/historisch-eefde/releases/download/untagged-6a8b897b976dc077664e/photosFullRes.zip)
 
 Je krijgt ze dan snel en efficiënt op je computer.
 
